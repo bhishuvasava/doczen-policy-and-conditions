@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DocZen - All-in-One On-Device PDF Toolkit. Scan documents, convert images, compress, and password-protect your PDFs locally with 100% security.">
+    <meta name="keywords"
+        content="PDF toolkit, smart scanner, compress PDF, convert image to PDF, local PDF edit, secure PDF, document scanner, offline PDF reader">
+    <meta name="author" content="DocZen Team">
+    <title>DocZen | All-in-One Smart PDF Toolkit</title>
+
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <header class="navbar-header">
+        <nav class="main-nav" id="mainNav">
+            <a href="#" class="logo-link">
+                <img src="Assets/Doczen-logo-Photoroom.png" alt="DocZen Logo" class="nav-logo">
+                <span class="logo-text">Doc<span>Zen</span></span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features" class="nav-item">Features</a></li>
+                <li><a href="#privacy" class="nav-item">On-Device Privacy</a></li>
+                <li><a href="#access" class="nav-item">Free Access</a></li>
+                <li><a href="#faq" class="nav-item">FAQs</a></li>
+                <li><a href="privacy-policy.html" class="nav-item">Privacy Policy</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#download" class="btn btn-primary nav-btn">Download App</a>
+                <button class="hamburger-menu" id="menuToggle" aria-label="Toggle Navigation Menu">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge">
+                        <i class="ri-shield-check-fill"></i> 100% On-Device PDF Processing
+                    </div>
+                    <h1 class="hero-title">Your All-in-One <span class="gradient-text">PDF Toolkit</span></h1>
+                    <p class="hero-subtitle">Scan documents with precision, convert images, compress file sizes, and
+                        secure PDFs locally. No servers, no account registration, and completely private.</p>
+
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <i class="ri-checkbox-circle-fill"></i>
+                            <span>Smart Scan & Crop</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="ri-lock-2-fill"></i>
+                            <span>Offline Password Security</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="ri-flashlight-fill"></i>
+                            <span>Zero Data Collection</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">
+                            <i class="ri-play-store-fill"></i> Get on Google Play
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            Explore Features <i class="ri-arrow-down-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-metrics">
+                        <div class="metric">
+                            <span class="metric-num">100%</span>
+                            <span class="metric-label">Private & Offline</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="metric">
+                            <span class="metric-num">FREE</span>
+                            <span class="metric-label">No Subscriptions</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="metric">
+                            <span class="metric-num">0s</span>
+                            <span class="metric-label">Server Upload Time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Mockup Display -->
+                <div class="hero-visual">
+                    <div class="blob-glow"></div>
+                    <div class="phone-mockup-wrapper">
+                        <div class="phone-mockup">
+                            <div class="phone-speaker"></div>
+                            <div class="phone-camera-notch"></div>
+                            <div class="phone-screen">
+                                <img src="Assets/doczen-home-screen.jpeg" alt="DocZen App Workspace" id="heroMockupImg"
+                                    class="mockup-img">
+                            </div>
+                            <div class="phone-shadow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Showcase Section -->
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Comprehensive Toolkit</span>
+                    <h2 class="section-title">Smart Tools Built For Everyone</h2>
+                    <p class="section-desc">Experience powerful document management. Tap any feature below to see how it
+                        works inside the DocZen application.</p>
+                </div>
+
+                <div class="features-showcase-grid">
+                    <!-- Feature Tabs Selector -->
+                    <div class="features-tabs-container">
+
+                        <div class="feature-tab active" data-feature="scanner" data-img="Assets/app-scanner.png">
+                            <div class="feature-icon-box icon-scanner">
+                                <i class="ri-scan-2-line"></i>
+                            </div>
+                            <div class="feature-tab-text">
+                                <h3>Smart Document Scanner</h3>
+                                <p>Auto-detect borders, crop precisely, and apply auto-enhancing filters for crystal
+                                    clear PDF outputs.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-tab" data-feature="convert" data-img="Assets/app-features-dark.png">
+                            <div class="feature-icon-box icon-convert">
+                                <i class="ri-shuffle-line"></i>
+                            </div>
+                            <div class="feature-tab-text">
+                                <h3>Image & PDF Converter</h3>
+                                <p>Seamless conversion between Image ⇆ PDF. Convert single or multiple images instantly
+                                    offline.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-tab" data-feature="compress" data-img="Assets/app-features-white.png">
+                            <div class="feature-icon-box icon-compress">
+                                <i class="ri-contract-left-right-line"></i>
+                            </div>
+                            <div class="feature-tab-text">
+                                <h3>PDF Compressor</h3>
+                                <p>Reduce file size instantly to share documents without losing readability or texture
+                                    quality.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-tab" data-feature="reader" data-img="Assets/app-features-dark.png">
+                            <div class="feature-icon-box icon-read">
+                                <i class="ri-book-open-line"></i>
+                            </div>
+                            <div class="feature-tab-text">
+                                <h3>Built-in PDF Reader</h3>
+                                <p>Read, view, organize, and inspect all local PDFs instantly in a clean, fast
+                                    interface.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-tab" data-feature="security" data-img="Assets/app-features-dark.png">
+                            <div class="feature-icon-box icon-secure">
+                                <i class="ri-lock-password-line"></i>
+                            </div>
+                            <div class="feature-tab-text">
+                                <h3>Secure & Lock PDF</h3>
+                                <p>Encrypt your PDFs with secure password protection or unlock them using local
+                                    decryption keys.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Dynamic Live Device Mockup -->
+                    <div class="features-mockup-container">
+                        <div class="mockup-bg-glow"></div>
+                        <div class="phone-mockup interactive-mockup">
+                            <div class="phone-speaker"></div>
+                            <div class="phone-camera-notch"></div>
+                            <div class="phone-screen">
+                                <div class="screen-loader"></div>
+                                <img src="Assets/app-scanner.png" alt="DocZen Scanner Screen" id="interactiveMockupImg"
+                                    class="mockup-img active">
+                            </div>
+                            <div class="phone-shadow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy & Offline Focus Section -->
+        <section class="privacy-section" id="privacy">
+            <div class="container">
+                <div class="privacy-grid">
+                    <div class="privacy-visual">
+                        <img src="Assets/landscape-hero.jpg" alt="DocZen Secure Workspace Banner"
+                            class="privacy-banner-img">
+                    </div>
+                    <div class="privacy-content">
+                        <span class="section-tagline">100% Local Security</span>
+                        <h2 class="section-title">Your Documents Never Leave Your Device</h2>
+                        <p class="section-desc">Unlike traditional converters and scanners that upload files to cloud
+                            servers, DocZen processes every byte locally. Your tax forms, contracts, and scans remain
+                            private and safe from internet security breaches.</p>
+
+                        <div class="benefit-list">
+                            <div class="benefit-card">
+                                <div class="benefit-icon"><i class="ri-cloud-off-line"></i></div>
+                                <div>
+                                    <h4>Works Offline</h4>
+                                    <p>Scan documents or convert images in remote locations with zero internet
+                                        connection.</p>
+                                </div>
+                            </div>
+
+                            <div class="benefit-card">
+                                <div class="benefit-icon"><i class="ri-shield-user-line"></i></div>
+                                <div>
+                                    <h4>Zero Servers, Zero Leakage</h4>
+                                    <p>No user registries, no cookies, and no files uploaded to cloud storage. Your data
+                                        is purely yours.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Access Model Section -->
+        <section class="access-section" id="access">
+            <div class="container">
+                <div class="access-card glass-card">
+                    <div class="access-content">
+                        <div class="access-badge">Rewarded Access Model</div>
+                        <h2>100% Free. No Hidden Subscriptions.</h2>
+                        <p>We believe in smart PDF tools for everyone. DocZen operates on a simple, transparent model:
+                            Watch a single rewarded advertisement, and get <strong>1 hour of unlimited, ad-free
+                                access</strong> to all premium tools. No subscription agreements, no credit cards, and
+                            no login required.</p>
+
+                        <div class="access-steps">
+                            <div class="step-card">
+                                <div class="step-num">1</div>
+                                <h4>Watch Ad</h4>
+                                <p>Click to watch one short ad</p>
+                            </div>
+                            <div class="step-arrow"><i class="ri-arrow-right-line"></i></div>
+                            <div class="step-card">
+                                <div class="step-num">2</div>
+                                <h4>Unlock Access</h4>
+                                <p>Get 1 hour of ad-free tools</p>
+                            </div>
+                            <div class="step-arrow"><i class="ri-arrow-right-line"></i></div>
+                            <div class="step-card">
+                                <div class="step-num">3</div>
+                                <h4>Work Securely</h4>
+                                <p>Scan, convert & compress offline</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="access-image-box">
+                        <img src="Assets/app-landscape-banner.png" alt="DocZen App Interface" class="access-banner-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive FAQ Accordion -->
+        <section class="faq-section" id="faq">
+            <div class="container faq-container">
+                <div class="section-header centered">
+                    <span class="section-tagline">Got Questions?</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-desc">Learn more about how DocZen operates under the hood.</p>
+                </div>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>How does local document processing work?</span>
+                            <i class="ri-add-line"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>DocZen contains pre-compiled, optimized rendering libraries directly inside the mobile
+                                app. When you select an image to convert, crop a page, or compress a PDF, the processing
+                                is performed entirely by your phone's processor and RAM. No external server requests are
+                                made.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Are my files encrypted?</span>
+                            <i class="ri-add-line"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>Yes. The security encryption tools in DocZen lock your PDF files with military-grade
+                                password protection protocols. These passwords are set directly by you and processed
+                                locally. We have no backend server, so we cannot recover or view your passwords.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Why does DocZen request camera and storage permissions?</span>
+                            <i class="ri-add-line"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>We request Camera permission specifically to let the Smart Scanner capture photos of
+                                physical documents. Storage permissions are required to scan your local storage for
+                                existing PDFs to read, and to save newly generated PDFs to your downloads folder.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Is there an iOS version of DocZen?</span>
+                            <i class="ri-add-line"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>Currently, DocZen is fully optimized and available for Android devices via Google Play.
+                                An iOS version is actively in development and will launch soon with the same 100%
+                                on-device processing architecture.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Banner Callout -->
+        <section class="download-section" id="download">
+            <div class="container">
+                <div class="download-card">
+                    <div class="download-glow"></div>
+                    <div class="download-content">
+                        <h2>Start Scanning & Editing Privately Today</h2>
+                        <p>Download DocZen now to get access to all scanner, reader, and compression utilities with 100%
+                            offline privacy.</p>
+                        <div class="download-actions">
+                            <a href="#" class="btn btn-primary btn-large">
+                                <i class="ri-play-store-fill"></i> Get on Google Play
+                            </a>
+                            <a href="#" class="btn btn-outline btn-large">
+                                <i class="ri-download-fill"></i> Download Direct APK
+                            </a>
+                        </div>
+                        <div class="download-info">
+                            <span><i class="ri-check-line"></i> Works Offline</span>
+                            <span><i class="ri-check-line"></i> Size: ~24MB</span>
+                            <span><i class="ri-check-line"></i> Android 8.0+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo-link">
+                        <img src="Assets/Doczen-logo-Photoroom.png" alt="DocZen Logo" class="footer-logo">
+                        <span class="logo-text">Doc<span>Zen</span></span>
+                    </a>
+                    <p class="footer-desc">Your ultimate on-device, serverless PDF toolkit. Private, secure, and
+                        instant.</p>
+                    <!-- <div class="social-links">
+                        <a href="#" aria-label="Follow us on Twitter"><i class="ri-twitter-x-fill"></i></a>
+                        <a href="#" aria-label="Follow us on GitHub"><i class="ri-github-fill"></i></a>
+                        <a href="#" aria-label="Join our Discord"><i class="ri-discord-fill"></i></a>
+                    </div> -->
+                </div>
+
+                <div class="footer-links-group">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Smart Scanner</a></li>
+                        <li><a href="#features">PDF Converter</a></li>
+                        <li><a href="#features">File Compressor</a></li>
+                        <li><a href="#features">Password Lock</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4>Security & Legals</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="privacy-policy.html#terms-and-conditions-content">Terms of Service</a></li>
+                        <li><a href="#privacy">On-Device Process</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4>Get In Touch</h4>
+                    <ul>
+                        <li><a href="mailto:contact.doczen@gmail.com"><i class="ri-mail-line"></i>
+                                contact.doczen@gmail.com</a></li>
+                        <li><a href="#faq"><i class="ri-question-line"></i> Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 DocZen App. All rights reserved. Built with 100% private design guidelines.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
